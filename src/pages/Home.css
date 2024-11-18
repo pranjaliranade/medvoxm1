@@ -1,0 +1,14 @@
+/* Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    padding: 20px;
+  }
+  
+  .home-container h2 {
+    margin-bottom: 20px;
+  }
+  

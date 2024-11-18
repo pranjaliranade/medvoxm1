@@ -1,0 +1,27 @@
+/* News.css */
+.news-container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .news-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .news-item {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .news-item h3 {
+    margin-top: 0;
+  }
+  
+  .news-item p {
+    margin-bottom: 10px;
+  }
+  

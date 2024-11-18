@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './News.css'
 
 const News = () => {
   const [news, setNews] = useState([]);

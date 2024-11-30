@@ -3,6 +3,8 @@ import { auth, db } from '../firebase';
 import { onAuthStateChanged } from 'firebase/auth';
 import { collection, getDocs, query, where } from 'firebase/firestore';
 import './Profile.css'
+import ProfileHeader from '../components/ProfileHeader.js'; 
+import Sidebar from '../components/Sidebar.js';
 
 const Profile = () => {
   const [user, setUser] = useState(null);
@@ -27,6 +29,8 @@ const Profile = () => {
 
   return (
     <div>
+      <ProfileHeader /> 
+      <Sidebar />
       <h2>Profile</h2>
       {user && <p>Welcome, {user.email}</p>}
       <h3>Your Reading History</h3>
